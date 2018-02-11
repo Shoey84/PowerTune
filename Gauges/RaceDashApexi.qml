@@ -57,43 +57,43 @@ Item {
             spacing: 20
             StatusIndicator {
                 color: "green"
-                active: { (Dashboard.revs > "3000") ? true: false; }
+                active: { (Dashboard.revs > "1400") ? true: false; }
             }
             StatusIndicator {
                 color: "green"
-                active: { (Dashboard.revs > "4000") ? true: false; }
+                active: { (Dashboard.revs > "2800") ? true: false; }
             }
             StatusIndicator {
                 color: "yellow"
-                active: { (Dashboard.revs > "5000") ? true: false; }
+                active: { (Dashboard.revs > "4200") ? true: false; }
             }
             StatusIndicator {
                 color: "yellow"
-                active: { (Dashboard.revs > "6000") ? true: false; }
+                active: { (Dashboard.revs > "5600") ? true: false; }
             }
             StatusIndicator {
                 color: "red"
-                active: { (Dashboard.revs > "7900") ? true: false; }
+                active: { (Dashboard.revs > "7000") ? true: false; }
             }
             StatusIndicator {
                 color: "red"
-                active: { (Dashboard.revs > "7900") ? true: false; }
+                active: { (Dashboard.revs > "7000") ? true: false; }
             }
             StatusIndicator {
                 color: "yellow"
-                active: { (Dashboard.revs > "6000") ? true: false; }
+                active: { (Dashboard.revs > "5600") ? true: false; }
             }
             StatusIndicator {
                 color: "yellow"
-                active: { (Dashboard.revs > "5000") ? true: false; }
+                active: { (Dashboard.revs > "4200") ? true: false; }
             }
             StatusIndicator {
                 color: "green"
-                active: { (Dashboard.revs > "4000") ? true: false; }
+                active: { (Dashboard.revs > "2800") ? true: false; }
             }
             StatusIndicator {
                 color: "green"
-                active: { (Dashboard.revs > "3000") ? true: false; }
+                active: { (Dashboard.revs > "1400") ? true: false; }
             }
         }
 
